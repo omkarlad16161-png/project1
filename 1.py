@@ -10,5 +10,5 @@ model.fit(X, y)
 
 # Make a prediction
 prediction = model.predict([[1800]])
-
+prediction = model.predict([[18000]])
 print("Predicted house price:", prediction[0], "lakhs")
